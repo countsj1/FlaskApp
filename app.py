@@ -140,6 +140,3 @@ def getWish():
             return render_template('error.html', error = 'Unauthorized Access')
     except Exception as e:
         return render_template('error.html', error = str(e))
-
-if __name__ == "__main__":
-    app.run(host='192.168.157.129', port=5000, debug=True)
