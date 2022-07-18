@@ -8,8 +8,8 @@ app = Flask(__name__)
 app.secret_key = 'super_secret key?'
 
 # MySQL configurations
-app.config['MYSQL_DATABASE_USER'] = 'countsj1'
-app.config['MYSQL_DATABASE_PASSWORD'] = 'Password#1'
+app.config['MYSQL_DATABASE_USER'] = '******'
+app.config['MYSQL_DATABASE_PASSWORD'] = '*******'
 app.config['MYSQL_DATABASE_DB'] = 'BucketList'
 app.config['MYSQL_DATABASE_HOST'] = 'localhost'
 mysql.init_app(app)
